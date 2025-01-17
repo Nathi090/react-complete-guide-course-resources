@@ -8,3 +8,15 @@ export default function TabButton({ children, isSelected, ...props }) {
     </li>
   );
 }
+
+
+/* Example of a button with icon
+<button className={cssClasses} {...props}>
+      {Icon && (
+        <span className="button-icon">
+          <Icon />
+        </span>
+      )}
+      <span>{children}</span>
+    </button>
+*/
